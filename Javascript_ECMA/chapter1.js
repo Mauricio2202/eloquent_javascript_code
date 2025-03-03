@@ -15,9 +15,7 @@ for (let contador = 0; contador < 10; contador = contador + 1) {
 }
 console.log(resultado)
 
-// Romper un ciclo con break
-for (let actual = 20;; actual = actual + 1) {
-    if(actual % 7 == 0) {
-        
-    }
+// Ciclo que haga un triángulo
+for (let i = 1; i <= 7; i++) {
+    console.log("#".repeat(i));
 }
