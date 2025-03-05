@@ -1,4 +1,6 @@
+// Para la función humus no son visibles cantidad, unidad y nombre de la función ingrediente
 const humus = function(factor) {
+    // Esta función puede ver la vinculación factor de la función externa humus
     const ingrediente = function(cantidad, unidad, nombre) {
         let cantidadIngrediente = cantidad * factor;
         if (cantidadIngrediente > 1) {
