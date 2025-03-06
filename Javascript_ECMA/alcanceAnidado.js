@@ -17,3 +17,20 @@ const humus = function(factor) {
 }
 
 humus();
+
+// Funciones como valores
+let lanzarMisiles = function() {
+    sistemaDeMisiles.lanzar("ahora");
+};
+if (modoSeguro) {
+    lanzarMisiles = function() {
+
+    }
+}
+
+// Declaración de función
+console.log("El futuro dice: ", futuro());
+
+function futuro() {
+    return "Nunca tendrán autos voladores";
+}
