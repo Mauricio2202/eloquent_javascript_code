@@ -18,6 +18,14 @@ console.log("derecha" in unObjeto);
 // Object.keys para saber qué propiedades tiene un objeto
 console.log(Object.keys({x: 0, y: 0, z: 2}));
 
+let autos = {
+    name: 'Toyota',
+    year: 2014
+};
+
+// Object.values para saber qué valores tiene un objeto
+console.log(Object.values(autos));
+
 let objetoA = {a: 1, b: 2};
 Object.assign(objetoA, {b: 3, c: 4});
 console.log(objetoA);
