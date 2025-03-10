@@ -10,3 +10,5 @@ function ruidosa(funcion) {
 }
 
 ruidosa(Math.min)(3, 2, 1);
+
+["A", "B"].forEach(letra => console.log(letra));
