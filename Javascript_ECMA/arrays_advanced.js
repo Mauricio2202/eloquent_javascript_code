@@ -28,3 +28,12 @@ console.log([1, 2, 3, 2, 1].lastIndexOf(2));
 
 // Toma índices de inicio a fin y retorna un array que solo tiene los números entre ellos
 console.log([0, 1, 2, 3, 4].slice(1, 4));
+
+let oracion = "Los pájaros secretarios se especializan en pisotear";
+// Divide un string en bloques
+let palabras = oracion.split(" ");
+console.log(palabras);
+console.log(palabras.join());
+
+// Este método crea un nuevo string que contiene múltiples copias concatenadas del string original
+console.log("LA".repeat(3));
