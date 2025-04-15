@@ -1,9 +1,6 @@
 // Filtra los nombres de un array que tengan más de 5 letras
 
 const nombres = [];
-nombres.push("Mauricio", "Gabriel", "Alejandro", "Matías", "José roberto", "Maximiliano", "Chingas a tu madre");
+nombres.push("Mauricio", "Abraham", "Alejandro", "Anthony", "Benjamin");
 
-
-const mayoresA5 = nombres.filter(name => name.length < 7);
-
-console.log(mayoresA5);
+console.log(nombres);
